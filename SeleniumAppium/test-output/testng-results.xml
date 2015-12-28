@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83423" started-at="2015-12-28T07:56:38Z" finished-at="2015-12-28T07:58:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83423" started-at="2015-12-28T07:56:38Z" finished-at="2015-12-28T07:58:02Z">
+      <class name="com.demo.testcases.TescoTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.demo.testcases.TescoTest@731563a4]" name="loginTest" duration-ms="83318" started-at="2015-12-28T07:56:38Z" data-provider="getLoginData" finished-at="2015-12-28T07:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Select5=fish, Select4=fruit and nut, Item5=Tesco Fruit And Nut Mix 250, Select3=coconut water, Item4=Innocent Coconut, Username=d681982@gmail.com, Select2=laundry liquid, Item3=Surcare, Select1=washing liquid, Item2=Persil Small And Mighty Non Biological , Item1=Tesco Kitchen Towel White, Runmode=Y, Data_Flag=Y, ItemstoSearch=kitchen towel
+washing liquid
+laundry liquid
+coconut water
+fruit and nut
+fish, Password=Asr-301282}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.demo.testcases.TescoTest@731563a4]" name="finish" is-config="true" duration-ms="1" started-at="2015-12-28T07:58:02Z" finished-at="2015-12-28T07:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.demo.testcases.TescoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
